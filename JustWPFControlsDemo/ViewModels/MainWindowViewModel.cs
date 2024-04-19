@@ -8,5 +8,7 @@ namespace JustWPFControlsDemo.ViewModels
 {
     internal class MainWindowViewModel
     {
+
+
     }
 }

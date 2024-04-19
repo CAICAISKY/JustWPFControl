@@ -6,8 +6,18 @@
         xmlns:local="clr-namespace:JustWPFControlsDemo"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
-        Title="MainWindow" Height="450" Width="800">
+        Title="JustWPFControls" Height="800" Width="1200">
     <Grid>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="8*"/>
+        </Grid.ColumnDefinitions>
+        <Grid>
+            
+        </Grid>
+        <GridSplitter BorderThickness="1" BorderBrush="Gray"/>
+        <Grid Grid.Column="1">
+            
+        </Grid>
     </Grid>
 </Window>
